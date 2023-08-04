@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-'''This script fetches the status information from the URL
- 'https://alu-intranet.hbtn.io/status' and prints the results in a formatted way.
+'''
+This script fetches the status information from the URL
+ "https://alu-intranet.hbtn.io/status" and prints the results in a formatted way.
 
 Dependencies:
-- requests library (install using 'pip install requests')
+- requests library (install using "pip install requests")
 
 Usage:
 python fetch_status.py
@@ -13,7 +14,8 @@ Example Output:
 import urllib.request
 
 if __name__ == "__main__":
-    '''Something here
+    '''
+    Something here
     '''
     url = 'https://alu-intranet.hbtn.io/status'
     request = urllib.request.Request(url)
