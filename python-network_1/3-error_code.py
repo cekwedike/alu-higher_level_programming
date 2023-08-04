@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-''' a Python script that takes in a URL, sends a request to
+"""
+
+a Python script that takes in a URL, sends a request to
 given URL and displays the body of the response
- (decoded in utf-8).'''
+ (decoded in utf-8).
+
+"""
 import urllib.error
 import urllib.request
 import sys
